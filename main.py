@@ -71,15 +71,15 @@ def legend():
 while True:
 	print("Press Return to Randomize")
 	print(" ")
-	print("Seraph Boss")
+	print("Seraph Boss:")
 	print(seraphs())
 
 	print(" ")
-	print("Raid Boss")
+	print("Raid Boss:")
 	print(raids())
 
 	print(" ")
-	print("Re-killable Enemy")
+	print("Re-killable Enemy:")
 	print(legend())
 
 	print("-------------------------")
