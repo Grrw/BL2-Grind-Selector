@@ -1,6 +1,11 @@
 # BL2-Grind-Selector
 A python script which decides enemies to farm.
 
+## TO DO:
+- [ ] Allow the user to pick which list is randomized
+- [ ] Separate non-Raid Bosses and Minibosses
+- [ ] Revise with a GUI
+
 ## Features:
 **1. Seraph Boss Selection** selects a Seraph Boss:
 - Master Gee the Invincible
@@ -20,8 +25,5 @@ A python script which decides enemies to farm.
 
 **3. Enemy Selection** selects a non-Raid, non-Seraph Boss
 - This may become two lists
-
-<sub><sup>(This list has both Bosses and Minibosses, e.g. BNK3R *and* Savage Lee)</sup></sub>
-
-## TO DO:
+- This list has both Bosses and Minibosses (e.g. BNK3R *and* Savage Lee)
 
