@@ -2,7 +2,12 @@
 blah blah fill this later
 """
 import random
+import os
 
+# Used for cleaing the screen for the first time
+os.system('cls' if os.name == 'nt' else 'clear')
+
+# List all Seraph Bosses
 def seraphs():
 	seraphs = ['Master Gee the Invincible', 
 		'Hyperious the Invincible', 
@@ -11,6 +16,7 @@ def seraphs():
 		'Ancient Dragons of Destruction']
 	return(random.choice(seraphs))
 
+# List all Raid Bosses
 def raids():
 	raids = ['Terramorphous the Invincible', 
 		'Vermivorous the Invincible', 
@@ -22,6 +28,8 @@ def raids():
 		'Ancient Dragons of Destruction']
 	return random.choice(raids)
 
+# List all other re-killable enemies
+# This includes Bosses who are not Raids or Seraphs
 def legend():
 	legend = ["Bone Head 2.0",
 		"Saturn",
@@ -68,8 +76,9 @@ def legend():
 		"Knuckle Dragger"]
 	return(random.choice(legend))
 
-while True:
-	print("Press Return to Randomize")
+
+exit = False
+while not exit:
 	print(" ")
 	print("Seraph Boss:")
 	print(seraphs())
@@ -83,24 +92,15 @@ while True:
 	print(legend())
 
 	print("-------------------------")
+	
+	print("Press Return to randomize; 'quit' + Return to Quit")
+	s = input()
 
-	input()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	if s == 'quit' or s == 'q' or s == 'quit()' or s == 'exit':
+		os.system('cls' if os.name == 'nt' else 'clear')
+		exit = True
+	else:
+		os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
