@@ -7,14 +7,14 @@ A python script which decides enemies to farm.
 - [ ] Revise with a GUI
 
 ## Features:
-**1. Seraph Boss Selection** selects a Seraph Boss:
+**1. Seraph Boss Selection** selects a Seraph Boss
 - Master Gee the Invincible
 - Hyperious the Invincible
 - Pete the Invincible
 - Voracidous the Invincible
 - Ancient Dragons of Destruction
 
-**2. Raid Boss Selection** selects a Raid Boss (Excluding Seraphs):
+**2. Raid Boss Selection** selects a Raid Boss (Excluding Seraphs)
 - Terramorphous the Invincible
 - Vermivorous the Invincible
 - Hyperious the Invincible
