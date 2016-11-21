@@ -4,7 +4,7 @@ A python script which decides enemies to farm.
 ## TO DO:
 - [X] Allow the user to pick which list is randomized
 - [ ] Separate non-Raid Bosses and Minibosses
-- [ ] Revise with a GUI
+- [X] Revise with a GUI
 
 ## Features:
 **1. Seraph Boss Selection** selects a Seraph Boss
