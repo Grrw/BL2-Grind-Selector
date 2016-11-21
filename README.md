@@ -2,7 +2,7 @@
 A python script which decides enemies to farm.
 
 ## TO DO:
-- [ ] Allow the user to pick which list is randomized
+- [X] Allow the user to pick which list is randomized
 - [ ] Separate non-Raid Bosses and Minibosses
 - [ ] Revise with a GUI
 
