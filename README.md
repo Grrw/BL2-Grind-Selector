@@ -1,12 +1,12 @@
 # BL2-Grind-Selector
 A python script which decides enemies to farm.
 
+### No more updates are planned, unless I decide to split bosses and enemies
+
 ## TO DO:
 - [X] Allow the user to pick which list is randomized
 - [ ] ~~Separate non-Raid Bosses and Minibosses~~
 - [X] Revise with a GUI
-
-#### No more updates are planned, unless I decide to split bosses and enemies
 
 ## Features:
 **1. Seraph Boss Selection** selects a Seraph Boss
